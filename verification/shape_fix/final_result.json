@@ -1,0 +1,74 @@
+{
+  "note": "Historical result from 2026-10-01. For the current build, see the top-level Markdown report and phy_1 reports.",
+  "tool": "TD 6.2.168116",
+  "baseline_tool": "TD 6.2.178840 (original report)",
+  "slice": 17839,
+  "lut": 16271,
+  "register": 17580,
+  "eram": 45,
+  "dsp": 20,
+  "pll": 3,
+  "io": 61,
+  "swns": -0.239,
+  "stns": -11.461,
+  "hwns": 0.02,
+  "htns": 0,
+  "setup_violating_endpoints": 79,
+  "hold_violating_endpoints": 0,
+  "mipi_self_swns": 0.141,
+  "hdmi_self_swns": 0.057,
+  "remaining_violating_group": "pll_clk_24m -> HDMI_PIXEL_CLK",
+  "bit": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\td_project\\camera_to_dsi_display_Runs\\phy_1\\camera_to_dsi_display.bit",
+  "bit_local_time": "2026-10-01 12:33:04",
+  "bit_bytes": 1789539,
+  "bit_sha256": "F8089CF782E46486A9425BE911CD3D784BC0F17485806C20A701D5076482A990",
+  "hardware_verified": false,
+  "modified_files": [
+    {
+      "path": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\user_source\\hdl_source\\design_top_wrapper.v",
+      "sha256": "A996D39981FE781ADD924D5899B74CF81DA397E9F578DF310729B48B54EF761B"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\user_source\\hdl_source\\hdmi_mixer.v",
+      "sha256": "B15BFA523B87BE705DE636FCF7BC0D6E44AEB49B16762969F62B979E36D18109"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\user_source\\hdl_source\\isp\\edge_detect_96.v",
+      "sha256": "A89AF5F4D3FC544D2C7D4832519DB2607368B419E46FFC46A57E2A9FEAE4BCF6"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\user_source\\hdl_source\\isp\\isp_top.v",
+      "sha256": "FC4F356C910CB1B71886BD502D70502DA10E4B572C697DE63571B19184A8C360"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\user_source\\hdl_source\\isp\\roi_axis_calc.v",
+      "sha256": "31203D3B3E2DCA78AD322BF66E6E195B5E071966019744E6A47C837011D35393"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\user_source\\hdl_source\\isp\\roi_binary_frame_buffer.v",
+      "sha256": "7B8D6E36D9655A18D2B556BA028F4227850FC8C47105443FBD7707E3D60ED358"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\user_source\\hdl_source\\isp\\roi_moment_stats.v",
+      "sha256": "1C896CC4BB1345B5EAA2AE166B008306577DC6B324334697410B0A9CBB623B2F"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\user_source\\hdl_source\\isp\\roi_rotate_normalize.v",
+      "sha256": "B27D7A062549D69578FB47324310F666F26F39DADE82108E2EB45D830C54D7DE"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\user_source\\hdl_source\\isp\\shape_match_fusion.v",
+      "sha256": "C0D444E04944703A905D48DB3FF4384EAEFD8D53B68C2184142BE89D0DCD104A"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\JIAN_WEI_ZHI_ZHU_zhu\\JIAN_WEI_ZHI_ZHU1\\JIAN_WEI_ZHI_ZHU\\lab_ex1_mipi_hdmi\\user_source\\hdl_source\\isp\\shape_template_match.v",
+      "sha256": "EA1673C73D2D59905493137349562A77FE2D6E96CBE86E99DCDBF0DDB1D66B36"
+    }
+  ],
+  "simulation_logs": [
+    "pipeline_result.log",
+    "calibrate_result.log",
+    "osd_result.log",
+    "sobel_result.log"
+  ]
+}

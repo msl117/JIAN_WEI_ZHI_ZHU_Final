@@ -1,0 +1,28 @@
+# Simulator and editor generated files
+work/
+xsim.dir/
+.Xil/
+**/work/
+**/xsim.dir/
+**/.Xil/
+_vlog_*/
+*.log
+*.logw
+*.jou
+*.pb
+*.wdb
+transcript
+td_*.log
+td_*.logw
+*.bak
+*.tmp
+*.old
+
+# Tang Dynasty generated runs, databases, and bitstreams
+**/*_Runs/
+td_project/log/
+td_project/al_ip/
+td_project/.lock.f
+td_project/.recent_user_depot.ini
+td_project/ph1_35p_clock_routing_resource.info
+
